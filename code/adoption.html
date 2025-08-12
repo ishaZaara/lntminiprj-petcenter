@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adoption Process - Pet Adoption Center</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Navbar */
+  nav {
+    background: #333;
+    width: 100%;
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 6px 12px;
+    transition: background 0.3s;
+  }
+  nav ul li a:hover {
+    background: #4CAF50;
+    border-radius: 5px;
+  }
+
+  header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  /* Adoption Process Section */
+  section#adoption-process {
+    max-width: 1000px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .step {
+    display: flex;
+    gap: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    align-items: center;
+    padding: 15px;
+  }
+
+  .step:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .step img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .step-content {
+    flex: 1;
+    text-align: left;
+  }
+
+  .step-content h2 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+
+  .step-content p {
+    color: #555;
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <ul>
+    <li><a href="process.html">Home</a></li>
+    <li><a href="available-pets.html">Available Pets</a></li>
+    <li><a href="volunteer.html#volunteer-form">Volunteer</a></li>
+    <li><a href="stories.html">Success Stories</a></li>
+    <li><a href="adoption.html#adoption-process">Adoption Process</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>🐾 Step-by-Step Adoption Process</h1>
+</header>
+
+<section id="adoption-process">
+  
+  <div class="step">
+    <img src="C:\Users\ishaz\Downloads\OIP.jpeg" alt="Browse Pets">
+    <div class="step-content">
+      <h2>Step 1: Browse Available Pets</h2>
+      <p>Visit our "Available Pets" page to explore dogs, cats, and other animals waiting for a home. Use our filters to find your perfect match based on age, breed, and personality.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <img src="https://placedog.net/500/300?id=12" alt="Submit Application">
+    <div class="step-content">
+      <h2>Step 2: Submit an Application</h2>
+      <p>Once you’ve found a pet you’re interested in, fill out our simple adoption application form online. This helps us ensure a good match between you and your future companion.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <img src="C:\Users\ishaz\Downloads\meetpet.jpeg" alt="Meet the Pet">
+    <div class="step-content">
+      <h2>Step 3: Meet & Greet</h2>
+      <p>We’ll arrange a meeting so you can spend time with the pet. This step helps you understand their personality and ensures you both feel comfortable together.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <img src="https://placedog.net/500/301?id=24" alt="Home Visit">
+    <div class="step-content">
+      <h2>Step 4: Home Check</h2>
+      <p>For some pets, especially rescues, we conduct a quick home visit to make sure your environment is safe and ready for your new furry friend.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <img src="C:\Users\ishaz\Downloads\adoptionday.jpeg" alt="Adoption Day">
+    <div class="step-content">
+      <h2>Step 5: Adoption Day 🎉</h2>
+      <p>Congratulations! Once approved, you can take your new pet home. We’ll provide you with all necessary documents, vaccination records, and post-adoption support.</p>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
